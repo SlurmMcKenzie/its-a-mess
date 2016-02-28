@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Februar2016v1</string>
+    <string name="addition">Plusaufgaben</string>
+    <string name="number1">Erste Zahl</string>
+    <string name="number2">Zweite Zahl</string>
+    <string name="number3">Dritte Zahl</string>
+    <string name="number4">Vierte Zahl</string>
+    <string name="number5"></string>
+    <string name="add">Ergebnis:</string>
+</resources>
