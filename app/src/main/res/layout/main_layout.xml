@@ -38,7 +38,7 @@
         android:layout_alignBottom="@+id/textView2"
         android:layout_alignEnd="@+id/textView1"
         android:layout_marginTop="47dp"
-        android:text="@string/number2"
+        android:text="@string/number3"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <!--<EditText
@@ -61,7 +61,7 @@
         android:layout_alignStart="@+id/textView2"
         android:layout_below="@+id/textView3"
         android:layout_marginTop="47dp"
-        android:text="@string/number3"
+        android:text="@string/number2"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <TextView
@@ -75,7 +75,7 @@
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <Button
-        android:id="@+id/btnAdd"
+        android:id="@+id/elbutton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignStart="@+id/textView4"
@@ -84,11 +84,11 @@
         android:text="@string/add" />
 
     <EditText
-        android:id="@+id/txtNumber2"
+        android:id="@+id/result"
         android:hint="@string/number5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/btnAdd"
+        android:layout_alignBottom="@+id/elbutton"
         android:layout_alignEnd="@+id/textView1"
         android:ems="2"
         android:maxLength="3"
