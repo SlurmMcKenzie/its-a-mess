@@ -16,22 +16,26 @@ public class MainActivity extends AppCompatActivity {
     EditText addResult;
     Button btnAdd;
 
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main_layout);
 
+        Random RandomNumber = new Random();
+        final int addition1 = RandomNumber.nextInt(49);
+        final int addition2 = RandomNumber.nextInt(49);
+
+        // int drei=50;
+
+        TextView firstnumber = (TextView)findViewById(R.id.textView3);
+        firstnumber.setText(Integer.toString(addition1));
+
         // Gets value from textView3
-        firstNumber = (TextView)findViewById(R.id.textView3);
+        // firstNumber = (TextView)findViewById(R.id.textView3);
 
         // Gets value from textView5
-        secondNumber = (TextView)findViewById(R.id.textView5);
-
-        //Random RandomNumber = new Random();
-        //final int firstNumber = RandomNumber.nextInt(49);
-        //final int secondNumber = RandomNumber.nextInt(49);
+        TextView secondnumber = (TextView)findViewById(R.id.textView5);
+        secondnumber.setText(Integer.toString(addition2));
 
         // variable for the result-Field
         addResult = (EditText)findViewById(R.id.result);
